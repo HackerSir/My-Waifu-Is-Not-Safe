@@ -1,9 +1,18 @@
 # wifi: what's cracking?
 
-> see [HackMD](https://hackmd.io/WEyS9iLSRje7boteEW4bWg)
+> Author: Junner
+> Date: 12/05/2024
+> Code: https://github.com/HackerSir/My-Waifu-Is-Not-Safe
+> Description: [HackMd](https://hackmd.io/WEyS9iLSRje7boteEW4bWg)
+
+## Content
+
+> * [設定](#For-Connection-network-configuration)
+> * [用指令攻擊](#Crack-a-wifi-password-using-commands)
+> * [用 Python 攻擊](#Crack-a-wifi-password-with-Python-scripts)
+
 
 ## For Connection: network configuration
-
 
 When pluging the usb device in, this window will pop up. Choose `Connect to Virtual machine` > select your destination device.
 
@@ -125,11 +134,10 @@ aircrack-ng -a2 -b 62:2D:E9:E6:8A:47 -w /home/kali/Desktop/passwords/10-million-
 所以如果可以的話，先問他們 wifi 名稱，放到 script 裡面讓他背景執行。如果真的不行的話再手動打，現場展示。
 
 
-
 基本上會改的部分就是 `target`、`file_path`、`passwordSet_path`。
 
 主要：
-* `target`：要攻擊的目標 wifi 名稱。
+* `target`：要攻擊的目標名稱。
 
 其他還有像是：
 * `file_path`：要儲存的檔案**路徑**。
