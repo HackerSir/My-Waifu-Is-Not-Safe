@@ -1,6 +1,6 @@
-# My-Waifu-Is-Not-Safe
-
 # wifi: what's cracking?
+
+> see [HackMD](https://hackmd.io/WEyS9iLSRje7boteEW4bWg)
 
 ## For Connection: network configuration
 
