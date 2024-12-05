@@ -123,3 +123,17 @@ aircrack-ng -a2 -b 62:2D:E9:E6:8A:47 -w /home/kali/Desktop/passwords/10-million-
 基本上大部分情況都會被處理，如果還是爆開就...用上面的指令打，因為用上面的指令還比較有展示性一點，但如果用 script 就能悄悄的攻擊，兩種不一樣的方式。
 
 所以如果可以的話，先問他們 wifi 名稱，放到 script 裡面讓他背景執行。如果真的不行的話再手動打，現場展示。
+
+
+
+基本上會改的部分就是 `target`、`file_path`、`passwordSet_path`。
+
+主要：
+* `target`：要攻擊的目標名稱。
+
+其他還有像是：
+* `file_path`：要儲存的檔案**路徑**。
+* `passwordSet_path`：密碼集文字檔的所在地。
+
+![圖片](https://hackmd.io/_uploads/BJkkIEy4Jg.png)
+
