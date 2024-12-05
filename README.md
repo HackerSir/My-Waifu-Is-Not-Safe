@@ -129,7 +129,7 @@ aircrack-ng -a2 -b 62:2D:E9:E6:8A:47 -w /home/kali/Desktop/passwords/10-million-
 基本上會改的部分就是 `target`、`file_path`、`passwordSet_path`。
 
 主要：
-* `target`：要攻擊的目標名稱。
+* `target`：要攻擊的目標 wifi 名稱。
 
 其他還有像是：
 * `file_path`：要儲存的檔案**路徑**。
