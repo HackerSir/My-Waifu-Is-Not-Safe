@@ -81,6 +81,8 @@ def crack_password(target, interface="wlan0", passwordSet_path='/home/kali/Deskt
 def main():
     interface = 'wlan0'
     target = 'alEx'
+    file_path = "/home/kali/Desktop/nets/test1/"
+    passwordSet_path="/home/kali/Desktop/passwords/10-million-password-list-top-1000000.txt"
     Monitor.setup_monitor_mode(interface, test=True)
     
     target_bssid = ""
@@ -89,14 +91,14 @@ def main():
         if target_bssid:
             break
     if target_bssid:
-        station = get_station(target_bssid)
+        station = get_station(target_bssid, filePath=file_path)
         ack_thread = threading.Thread(target=give_me_ACK, args=(target_bssid, station))
         ack_thread.start()
         ack_thread.join()
     else:
         print("No station mac")
 
-    crack_password(target_bssid)
+    crack_password(target_bssid, passwordSet_path=passwordSet_path, ACK_Path=file_path)
     Monitor.reset_mode(interface)
 
 main()
