@@ -4,6 +4,8 @@
 > Date: 12/05/2024
 > Code: https://github.com/HackerSir/My-Waifu-Is-Not-Safe
 > Description: [HackMd](https://hackmd.io/WEyS9iLSRje7boteEW4bWg)
+> 簡報：https://hackmd.io/@JunnerX/My-Waifu-Is-Not-Safe-Presentation
+
 
 ## 大綱
 
